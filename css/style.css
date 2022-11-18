@@ -68,6 +68,8 @@ nav ul{
 
 /*Primer Contenedor*/
 
+/*{*/
+
 .prm-cont{
     background-color: var(--dark-background);
     color: var(--text);
@@ -108,7 +110,10 @@ nav ul{
     font-size: 12px;
 }
 
+/*}*/
+
 /*segundo contenedor*/
+/*{*/
 
 .sgd-cont{
     height: 790px;
@@ -146,12 +151,52 @@ nav ul{
 .sgd-cont .sgd-prt{
     background-color: var(--contenedores);
     height: 58%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding-top: 12px;
 }
+
+/*.sgd-cont .sgd-prt p{
+    padding: 24px; 
+}/*Agregar para reducir el espacio del texto*/
 
 .sgd-cont .sgd-prt .details{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row !important;
+    padding-left: 15%;
+    list-style-type: none;
 }
+
+.sgd-cont .sgd-prt .details li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 16px 14px;
+    width: 30%;
+}
+
+.sgd-prt .details .icon-cont{
+    background-color: transparent;
+    border: 1px solid var(--decoration);
+    border-radius: 30px;
+    width: 20%;
+    height: 50%;
+    margin-right: 30px;
+}
+
+.sgd-prt .details svg{
+    width: 20px;
+    color: var(--decoration);
+    padding-top: 32%;
+}
+
+.sgd-prt .details .txt-title, 
+.sgd-prt .details .txt-body{
+    text-align: left;
+}
+
+.sgd-prt .details .txt-title{
+    font-size: 18px;
+}
+
+/*}*/
