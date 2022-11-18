@@ -9,6 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 /*Clases Generales*/
@@ -158,7 +159,7 @@ nav ul{
 }
 
 .sgd-cont .sgd-prt{
-    background-color: var(--contenedores);
+    background-color: var(--contenedor1);
     height: 58%;
     text-align: center;
     padding-top: 30px;
@@ -234,3 +235,36 @@ nav ul{
 
 /*}*/
 
+/*Tercer Contenedor*/
+
+/*{*/
+
+.trc-cont{
+    background-color: var(--contenedor1);
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trc-cont .txt-title{
+    margin-top: 40px;
+}
+
+.trc-cont svg{
+    color: var(--decoration);
+    width: 30px;
+}
+
+.trc-cont p{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    width: 30%;
+}
+
+.trc-cont .sub-title{
+    font-size: 8px;
+    color: var(--text);
+}
+
+/*}*/
