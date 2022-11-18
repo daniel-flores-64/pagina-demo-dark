@@ -20,8 +20,23 @@ button{
     border-radius: 16px !important;
 }
 
+.txt-title, .txt-body{
+    color: var(--text);
+}
+
+.txt-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.txt-body{
+    font-size: 12px;
+}
+
+/*Navegación*/
+
 nav{
-    background-color: var(--contenedores);
+    background-color: var(--dark-background);
     color: var(--text);
     display: flex;
     flex-direction: column;
@@ -85,11 +100,58 @@ nav ul{
 }
 
 .prm-cont .txt-body{
-    font-size: 12px;
     padding: auto 100px !important;
 }
 
 .prm-cont button{
     width: 15%;
     font-size: 12px;
+}
+
+/*segundo contenedor*/
+
+.sgd-cont{
+    height: 790px;
+}
+
+.sgd-cont .prm-prt{
+    background-color: var(--dark-background);
+    height: 42%;
+    display: flex;
+    justify-content: center;
+}
+
+.sgd-cont .prm-prt div:nth-child(1){
+    width: 50%;
+}
+
+.sgd-cont .prm-prt div:nth-child(2){
+    width: 50%;
+    padding-right: 20%;
+}
+
+.sgd-cont .prm-prt div p{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.sgd-cont .prm-prt div:nth-child(2) button{
+    background-color: var(--dark-background);
+    border: 1px solid var(--decoration);
+    border-radius: 4px !important;
+    font-size: 12px;
+    padding: 10px 24px;
+}
+
+.sgd-cont .sgd-prt{
+    background-color: var(--contenedores);
+    height: 58%;
+    display: flex;
+    justify-content: center;
+}
+
+.sgd-cont .sgd-prt .details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
