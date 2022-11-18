@@ -1,6 +1,7 @@
 :root{
     --dark-background: #0f0f0f;
     --contenedores: #5a5a5a;
+    --decoration: red;
     --text: #cdcdcd;
 }
 
@@ -10,8 +11,33 @@
 }
 
 nav{
-    float: left;
     background-color: var(--contenedores);
     color: var(--text);
+    display: flex;
+    flex-direction: column;
+    position: fixed !important;
+    width: 10%;
+    height: 100%;
+}
+
+nav img{
+    align-items: center;
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 18px;
+    overflow: auto;
+    color: var(--text);
+}
+
+.navbar-nav .nav-link{
+    color: inherit;
+    text-align: center;
+    font-size: 12px;
+}
+
+nav ul{
+    padding-left: 20% !important;
 }
 
